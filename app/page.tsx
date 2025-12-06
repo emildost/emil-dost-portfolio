@@ -5,10 +5,12 @@ import { Social } from "@/components/social"
 import { Contact } from "@/components/contact"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import { ThreeBackground } from "@/components/three-background"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background relative">
+      <ThreeBackground />
       <Navigation />
       <Hero />
       <About />
